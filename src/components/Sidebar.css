@@ -1,0 +1,46 @@
+.sidebar {
+  width: 50px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  transition: width 0.3s ease;
+  color: white;
+}
+
+.sidebar.open {
+  width: 200px;
+}
+
+.sidebar .hamburger {
+  padding: 15px;
+  cursor: pointer;
+  font-size: 24px;
+  text-align: center;
+}
+
+.sidebar .menu {
+  margin-top: 30px;
+}
+
+.sidebar .menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar .menu ul li {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar .menu ul li span {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.sidebar.closed .menu ul li span + span {
+  display: none;
+}
