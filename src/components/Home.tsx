@@ -4,7 +4,7 @@ import ContentLayout from './ContentLayout';
 const Home: React.FC = () => {
   return (
     <ContentLayout>
-      <h1>Welcome to the Dashboard</h1>
+      <h1>Welcome to the Home Page</h1>
       <p>Click the menu to navigate.</p>
     </ContentLayout>
   );
